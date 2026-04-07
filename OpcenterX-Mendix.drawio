@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Solution Architecture Proposal" id="wAonaUCKl4NMkRlW5uV8">
-    <mxGraphModel dx="4363" dy="2050" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="4135" dy="1948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -153,6 +153,18 @@
         </mxCell>
         <mxCell id="Rt5f1xqaQgMdvonDjFAM-35" parent="1" style="shape=mxgraph.kubernetes.icon;prIcon=svc;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fillColor=#231f20;strokeColor=#231f20;fontColor=#231f20;fontSize=7;fontStyle=1" value="Apache Kafka&#xa;Event Broker&#xa;Topics / partitions" vertex="1">
           <mxGeometry height="80" width="82.5" x="-911.25" y="-100" as="geometry" />
+        </mxCell>
+        <mxCell id="9G6ptjF6zJO8N7-8gY79-1" edge="1" parent="1" source="Rt5f1xqaQgMdvonDjFAM-44" style="endArrow=classic;html=1;rounded=0;exitX=1.001;exitY=0.54;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.004;entryY=0.16;entryDx=0;entryDy=0;entryPerimeter=0;" target="Rt5f1xqaQgMdvonDjFAM-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-320" y="-90" as="sourcePoint" />
+            <mxPoint x="-270" y="-140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9G6ptjF6zJO8N7-8gY79-2" edge="1" parent="1" source="Rt5f1xqaQgMdvonDjFAM-10" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.16;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-282" y="-44.71" as="sourcePoint" />
+            <mxPoint x="-600" y="-45.71" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
