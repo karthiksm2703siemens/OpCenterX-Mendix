@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Solution Architecture Proposal" id="wAonaUCKl4NMkRlW5uV8">
-    <mxGraphModel dx="2642" dy="1101" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="3015" dy="1312" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -156,7 +156,7 @@
         <mxCell id="9G6ptjF6zJO8N7-8gY79-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Consume a Topic [Configuration] /REST API (Optional)&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="210" x="-610" y="-100" as="geometry" />
         </mxCell>
-        <mxCell id="9G6ptjF6zJO8N7-8gY79-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Publish a Topic [Configuration]&lt;/font&gt;" vertex="1">
+        <mxCell id="9G6ptjF6zJO8N7-8gY79-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Publish a Topic [Configuration]&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="130" x="-580" y="-60" as="geometry" />
         </mxCell>
         <mxCell id="9G6ptjF6zJO8N7-8gY79-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;h5&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;Messaging Broker / Kafka Connector / Mendix Event Publisher&lt;/font&gt;&lt;/h5&gt;" vertex="1">
@@ -177,6 +177,27 @@
             <mxPoint y="-30" as="sourcePoint" />
             <mxPoint x="80" y="80" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="bcc7Au5oiFrguZ-QznfT-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#FF0000;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="20" width="20" x="-1063.3" y="-420" as="geometry" />
+        </mxCell>
+        <mxCell id="bcc7Au5oiFrguZ-QznfT-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#FF0000;rounded=0;" value="2" vertex="1">
+          <mxGeometry height="20" width="20" x="-1063.3" y="-310" as="geometry" />
+        </mxCell>
+        <mxCell id="bcc7Au5oiFrguZ-QznfT-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#FF0000;rounded=0;" value="3" vertex="1">
+          <mxGeometry height="20" width="20" x="-990" y="-160" as="geometry" />
+        </mxCell>
+        <mxCell id="bcc7Au5oiFrguZ-QznfT-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#FF0000;rounded=0;" value="4" vertex="1">
+          <mxGeometry height="20" width="20" x="-510" y="-110" as="geometry" />
+        </mxCell>
+        <mxCell id="bcc7Au5oiFrguZ-QznfT-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#FF0000;rounded=0;" value="6" vertex="1">
+          <mxGeometry height="20" width="20" x="-510" y="-35" as="geometry" />
+        </mxCell>
+        <mxCell id="bcc7Au5oiFrguZ-QznfT-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#FF0000;rounded=0;" value="5" vertex="1">
+          <mxGeometry height="20" width="20" x="-260" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="bcc7Au5oiFrguZ-QznfT-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#FF0000;rounded=0;" value="7" vertex="1">
+          <mxGeometry height="20" width="20" x="-990" y="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
