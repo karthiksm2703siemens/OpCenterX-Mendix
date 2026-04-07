@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Solution Architecture Proposal" id="wAonaUCKl4NMkRlW5uV8">
-    <mxGraphModel dx="5296" dy="2606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="3232" dy="1435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -100,13 +100,13 @@
           <mxGeometry height="80" width="320" x="-1030" y="-340" as="geometry" />
         </mxCell>
         <mxCell id="Rt5f1xqaQgMdvonDjFAM-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00ffb9;strokeColor=#007a5a;fontColor=#003d2e;fontSize=12;fontStyle=1" value="Siemens Opcenter X&#xa;MES / Manufacturing&#xa;Event consumer" vertex="1">
-          <mxGeometry height="80" width="200" x="-970" y="80" as="geometry" />
+          <mxGeometry height="110" width="520" x="-1120" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="Rt5f1xqaQgMdvonDjFAM-38" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=11;fontStyle=2;fontColor=#666666" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;1. File Extract&lt;/b&gt;&lt;/font&gt;" vertex="1">
+        <mxCell id="Rt5f1xqaQgMdvonDjFAM-38" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=11;fontStyle=2;fontColor=#666666" value="&lt;font style=&quot;font-size: 12px; color: rgb(0, 0, 0);&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;1. File Extract&lt;/b&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="20" width="90" x="-710" y="-445" as="geometry" />
         </mxCell>
-        <mxCell id="Rt5f1xqaQgMdvonDjFAM-40" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=11;fontStyle=2;fontColor=#666666" value="3. Consume event" vertex="1">
-          <mxGeometry height="20" width="110" x="-835" y="230" as="geometry" />
+        <mxCell id="Rt5f1xqaQgMdvonDjFAM-40" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=11;fontStyle=2;fontColor=#666666" value="&lt;b&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;3. Consume Event&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="110" x="-715" y="80" as="geometry" />
         </mxCell>
         <mxCell id="Rt5f1xqaQgMdvonDjFAM-41" edge="1" parent="1" source="Rt5f1xqaQgMdvonDjFAM-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeColor=#0073e6;strokeWidth=2;fontSize=11;fontStyle=1;labelBackgroundColor=#ffffff" target="Rt5f1xqaQgMdvonDjFAM-34" value="">
           <mxGeometry relative="1" x="-0.3333" y="50" as="geometry">
@@ -122,7 +122,7 @@
         <mxCell id="Rt5f1xqaQgMdvonDjFAM-47" parent="1" style="shape=mxgraph.sap.icon;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeWidth=1;strokeColor=#D5DADD;fillColor=#EDEFF0;gradientColor=#FCFCFC;gradientDirection=west;aspect=fixed;SAPIcon=SAP_Integration_Suite_-_Advanced_Event_Mesh" value="" vertex="1">
           <mxGeometry height="30" width="30" x="-1020" y="-330" as="geometry" />
         </mxCell>
-        <mxCell id="Rt5f1xqaQgMdvonDjFAM-39" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=11;fontStyle=2;fontColor=#666666" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;2. Publish Event&lt;/font&gt;" vertex="1">
+        <mxCell id="Rt5f1xqaQgMdvonDjFAM-39" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=11;fontStyle=2;fontColor=#666666" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&lt;b&gt;2. Publish Event&lt;/b&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="20" width="100" x="-715" y="-190" as="geometry" />
         </mxCell>
         <mxCell id="Rt5f1xqaQgMdvonDjFAM-48" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.kafka;" value="" vertex="1">
@@ -145,6 +145,10 @@
         <mxCell id="Rt5f1xqaQgMdvonDjFAM-43" edge="1" parent="1" source="Rt5f1xqaQgMdvonDjFAM-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeColor=#0073e6;strokeWidth=2;fontSize=11;fontStyle=1;labelBackgroundColor=#ffffff" target="Rt5f1xqaQgMdvonDjFAM-37" value="Subscribe &amp; consume">
           <mxGeometry relative="1" x="-0.4737" y="160" as="geometry">
             <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-870" y="40" />
+              <mxPoint x="-870" y="40" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Rt5f1xqaQgMdvonDjFAM-35" parent="1" style="shape=mxgraph.kubernetes.icon;prIcon=svc;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fillColor=#231f20;strokeColor=#231f20;fontColor=#231f20;fontSize=7;fontStyle=1" value="Apache Kafka&#xa;Event Broker&#xa;Topics / partitions" vertex="1">
