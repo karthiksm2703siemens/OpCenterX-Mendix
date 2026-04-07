@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Solution Architecture Proposal" id="wAonaUCKl4NMkRlW5uV8">
-    <mxGraphModel dx="3490" dy="1582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2937" dy="1268" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,7 +22,7 @@
         <mxCell id="Rt5f1xqaQgMdvonDjFAM-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1" value="Runtime Node 1&#xa;App + Java + Microflows" vertex="1">
           <mxGeometry height="60" width="200" x="-95" y="-90" as="geometry" />
         </mxCell>
-        <mxCell id="Rt5f1xqaQgMdvonDjFAM-12" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1" value="PostgreSQL&#xa;Managed, backed up" vertex="1">
+        <mxCell id="Rt5f1xqaQgMdvonDjFAM-12" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1" value="PostgreSQL&lt;br&gt;Managed, Backed Up" vertex="1">
           <mxGeometry height="80" width="200" x="-280" y="30" as="geometry" />
         </mxCell>
         <mxCell id="Rt5f1xqaQgMdvonDjFAM-13" parent="1" style="shape=mxgraph.aws4.simple_storage_service_s3;fillColor=#f8cecc;strokeColor=#b85450;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top" value="S3 File Storage&#xa;Documents, images" vertex="1">
