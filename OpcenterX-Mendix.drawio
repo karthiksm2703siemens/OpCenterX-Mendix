@@ -126,7 +126,7 @@
         <mxCell id="Rt5f1xqaQgMdvonDjFAM-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#231f20;strokeColor=#231f20;fontColor=#ffffff;fontSize=12;fontStyle=1" value="Apache Kafka&lt;br&gt;Event Broker&lt;br&gt;Topics / Partitions" vertex="1">
           <mxGeometry height="80" width="180" x="-960" y="-190" as="geometry" />
         </mxCell>
-        <mxCell id="Rt5f1xqaQgMdvonDjFAM-43" edge="1" parent="1" source="Rt5f1xqaQgMdvonDjFAM-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeColor=#0073e6;strokeWidth=2;fontSize=11;fontStyle=1;labelBackgroundColor=#ffffff" target="Rt5f1xqaQgMdvonDjFAM-37" value="Subscribe &amp; consume">
+        <mxCell id="Rt5f1xqaQgMdvonDjFAM-43" edge="1" parent="1" source="Rt5f1xqaQgMdvonDjFAM-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeColor=#0073e6;strokeWidth=2;fontSize=11;fontStyle=1;labelBackgroundColor=#ffffff" target="Rt5f1xqaQgMdvonDjFAM-37" value="Subscribe &amp;amp; Consume / Publish&amp;nbsp;">
           <mxGeometry relative="1" x="-0.4737" y="160" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
