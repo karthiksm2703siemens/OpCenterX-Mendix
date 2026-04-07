@@ -19,7 +19,7 @@
         <mxCell id="Rt5f1xqaQgMdvonDjFAM-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1" value="HTTPS&lt;br&gt;TLS, Static Assets" vertex="1">
           <mxGeometry height="50" width="170" x="-80" y="-320" as="geometry" />
         </mxCell>
-        <mxCell id="Rt5f1xqaQgMdvonDjFAM-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1" value="Runtime&lt;br&gt;App + Java + Microflows" vertex="1">
+        <mxCell id="Rt5f1xqaQgMdvonDjFAM-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1" value="Mx Runtime" vertex="1">
           <mxGeometry height="60" width="200" x="-95" y="-199" as="geometry" />
         </mxCell>
         <mxCell id="Rt5f1xqaQgMdvonDjFAM-12" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1" value="PostgreSQL&lt;br&gt;Managed, Backed Up" vertex="1">
