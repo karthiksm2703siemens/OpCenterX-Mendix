@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Solution Architecture Proposal" id="wAonaUCKl4NMkRlW5uV8">
-    <mxGraphModel dx="2734" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="5296" dy="2606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -99,14 +99,8 @@
         <mxCell id="Rt5f1xqaQgMdvonDjFAM-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1a9cff;strokeColor=#003d80;fontColor=#ffffff;fontSize=12;fontStyle=1" value="SAP BTP&lt;br&gt;Advanced Event Mesh - Messaging Service" vertex="1">
           <mxGeometry height="80" width="320" x="-1030" y="-340" as="geometry" />
         </mxCell>
-        <mxCell id="Rt5f1xqaQgMdvonDjFAM-35" parent="1" style="shape=mxgraph.kubernetes.icon;prIcon=svc;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fillColor=#231f20;strokeColor=#231f20;fontColor=#231f20;fontSize=12;fontStyle=1" value="Apache Kafka&#xa;Event Broker&#xa;Topics / partitions" vertex="1">
-          <mxGeometry height="80" width="85" x="-980" y="120" as="geometry" />
-        </mxCell>
-        <mxCell id="Rt5f1xqaQgMdvonDjFAM-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#231f20;strokeColor=#231f20;fontColor=#ffffff;fontSize=12;fontStyle=1" value="Apache Kafka&#xa;Event Broker&#xa;Topics / partitions" vertex="1">
-          <mxGeometry height="80" width="180" x="-1005" y="120" as="geometry" />
-        </mxCell>
         <mxCell id="Rt5f1xqaQgMdvonDjFAM-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00ffb9;strokeColor=#007a5a;fontColor=#003d2e;fontSize=12;fontStyle=1" value="Siemens Opcenter X&#xa;MES / Manufacturing&#xa;Event consumer" vertex="1">
-          <mxGeometry height="80" width="200" x="-755" y="120" as="geometry" />
+          <mxGeometry height="80" width="200" x="-970" y="80" as="geometry" />
         </mxCell>
         <mxCell id="Rt5f1xqaQgMdvonDjFAM-38" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=11;fontStyle=2;fontColor=#666666" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;1. File Extract&lt;/b&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="20" width="90" x="-710" y="-445" as="geometry" />
@@ -119,11 +113,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rt5f1xqaQgMdvonDjFAM-43" edge="1" parent="1" source="Rt5f1xqaQgMdvonDjFAM-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeColor=#0073e6;strokeWidth=2;fontSize=11;fontStyle=1;labelBackgroundColor=#ffffff" target="Rt5f1xqaQgMdvonDjFAM-37" value="Subscribe &amp; consume">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="Rt5f1xqaQgMdvonDjFAM-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;verticalAlign=top;fontSize=14;fontStyle=1;dashed=1;fontColor=#ffffff;" value="" vertex="1">
-          <mxGeometry height="190" width="520" x="-1120" y="-200" as="geometry" />
+          <mxGeometry height="220" width="520" x="-1120" y="-200" as="geometry" />
         </mxCell>
         <mxCell id="Rt5f1xqaQgMdvonDjFAM-46" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/SAP_HANA_on_Azure.svg;" value="" vertex="1">
           <mxGeometry height="25" width="50" x="-1020" y="-450" as="geometry" />
@@ -147,6 +138,17 @@
             <mxPoint x="-870" y="-239.99999999999991" as="sourcePoint" />
             <mxPoint x="-870.2800000000002" y="-200.94999999999993" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Rt5f1xqaQgMdvonDjFAM-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#231f20;strokeColor=#231f20;fontColor=#ffffff;fontSize=12;fontStyle=1" value="Apache Kafka&lt;br&gt;Event Broker&lt;br&gt;Topics / Partitions" vertex="1">
+          <mxGeometry height="80" width="180" x="-960" y="-190" as="geometry" />
+        </mxCell>
+        <mxCell id="Rt5f1xqaQgMdvonDjFAM-43" edge="1" parent="1" source="Rt5f1xqaQgMdvonDjFAM-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeColor=#0073e6;strokeWidth=2;fontSize=11;fontStyle=1;labelBackgroundColor=#ffffff" target="Rt5f1xqaQgMdvonDjFAM-37" value="Subscribe &amp; consume">
+          <mxGeometry relative="1" x="-0.4737" y="160" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rt5f1xqaQgMdvonDjFAM-35" parent="1" style="shape=mxgraph.kubernetes.icon;prIcon=svc;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fillColor=#231f20;strokeColor=#231f20;fontColor=#231f20;fontSize=7;fontStyle=1" value="Apache Kafka&#xa;Event Broker&#xa;Topics / partitions" vertex="1">
+          <mxGeometry height="80" width="82.5" x="-911.25" y="-100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
