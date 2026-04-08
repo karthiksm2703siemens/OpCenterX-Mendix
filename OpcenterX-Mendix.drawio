@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Solution Architecture Proposal" id="wAonaUCKl4NMkRlW5uV8">
-    <mxGraphModel dx="2355" dy="938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2655" dy="1108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -285,6 +285,15 @@
             <mxPoint x="-520.34" y="853.5" as="sourcePoint" />
             <mxPoint x="-520.34" y="897.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZumWHc0aL2i9tt1jbMm-54" edge="1" parent="1" source="3ZumWHc0aL2i9tt1jbMm-49" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" target="3ZumWHc0aL2i9tt1jbMm-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZumWHc0aL2i9tt1jbMm-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBorderColor=default;" value="Kafka Connector" vertex="1">
+          <mxGeometry height="20" width="100" x="-380" y="1007.5" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZumWHc0aL2i9tt1jbMm-55" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBorderColor=default;" value="Kafka Event Broker" vertex="1">
+          <mxGeometry height="20" width="115" x="-570" y="914" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
