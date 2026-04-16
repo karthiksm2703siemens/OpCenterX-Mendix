@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Solution Architecture Proposal" id="wAonaUCKl4NMkRlW5uV8">
-    <mxGraphModel dx="5296" dy="3456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="4135" dy="2798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -183,73 +183,73 @@
         <mxCell id="R57UEgWO8Pn4zztJ6HoV-12" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="Siemens Mendix Dedicated Cloud" vertex="1">
           <mxGeometry height="30" width="450" x="-850" y="-1470" as="geometry" />
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-136" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=18;fontStyle=1;fontColor=#1F4E79;" value="OpX and Mendix — Sequence Diagram" vertex="1">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-136" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=18;fontStyle=1;fontColor=#1F4E79;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="OpX and Mendix — Sequence Diagram" vertex="1">
           <mxGeometry height="30" width="1120" x="-960" y="-360" as="geometry" />
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-137" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontColor=#64748B;" value="User interaction with Mendix application and data flow to Opcenter X" vertex="1">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-137" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontColor=#64748B;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="User interaction with Mendix application and data flow to Opcenter X" vertex="1">
           <mxGeometry height="20" width="1120" x="-960" y="-330" as="geometry" />
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-138" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;fillColor=#534AB7;strokeColor=#26215C;fontColor=#ffffff;fontStyle=1;fontSize=11;" value="User" vertex="1">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-138" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;fillColor=#534AB7;strokeColor=#26215C;fontColor=#ffffff;fontStyle=1;fontSize=11;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="User" vertex="1">
           <mxGeometry height="60" width="40" x="-900" y="-290" as="geometry" />
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-139" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#534AB7;strokeColor=#26215C;fontColor=#ffffff;fontStyle=1;fontSize=12;" value="Mendix Application" vertex="1">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-139" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#534AB7;strokeColor=#26215C;fontColor=#ffffff;fontStyle=1;fontSize=12;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="Mendix Application" vertex="1">
           <mxGeometry height="40" width="200" x="-710" y="-275" as="geometry" />
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-140" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2E75B6;strokeColor=#042C53;fontColor=#ffffff;fontStyle=1;fontSize=11;" value="REST / Kafka&#xa;(Input source)" vertex="1">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-140" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2E75B6;strokeColor=#042C53;fontColor=#ffffff;fontStyle=1;fontSize=11;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="REST / Kafka&#xa;(Input source)" vertex="1">
           <mxGeometry height="60" width="160" x="-430" y="-285" as="geometry" />
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-141" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#5F5E5A;strokeColor=#2C2C2A;fontColor=#ffffff;fontStyle=1;fontSize=11;" value="Kafka&#xa;(Consume service)" vertex="1">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-141" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#5F5E5A;strokeColor=#2C2C2A;fontColor=#ffffff;fontStyle=1;fontSize=11;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="Kafka&#xa;(Consume service)" vertex="1">
           <mxGeometry height="60" width="160" x="-190" y="-285" as="geometry" />
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-142" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0F6E56;strokeColor=#04342C;fontColor=#ffffff;fontStyle=1;fontSize=12;" value="Opcenter X" vertex="1">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-142" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0F6E56;strokeColor=#04342C;fontColor=#ffffff;fontStyle=1;fontSize=12;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="Opcenter X" vertex="1">
           <mxGeometry height="40" width="140" x="30" y="-275" as="geometry" />
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-143" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#64748B;strokeWidth=1;" value="">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-143" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#64748B;strokeWidth=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-880" y="-225" as="sourcePoint" />
             <mxPoint x="-880" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-144" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#64748B;strokeWidth=1;" value="">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-144" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#64748B;strokeWidth=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-610" y="-225" as="sourcePoint" />
             <mxPoint x="-610" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-145" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#64748B;strokeWidth=1;" value="">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-145" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#64748B;strokeWidth=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-350" y="-225" as="sourcePoint" />
             <mxPoint x="-350" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-146" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#64748B;strokeWidth=1;" value="">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-146" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#64748B;strokeWidth=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-110" y="-225" as="sourcePoint" />
             <mxPoint x="-110" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-147" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#64748B;strokeWidth=1;" value="">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-147" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#64748B;strokeWidth=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="100" y="-225" as="sourcePoint" />
             <mxPoint x="100" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-148" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F1FB;strokeColor=#2E75B6;fontColor=#042C53;fontSize=10;fontStyle=2;align=center;verticalAlign=middle;" value="Input: work orders received via REST or Kafka" vertex="1">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-148" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F1FB;strokeColor=#2E75B6;fontColor=#042C53;fontSize=10;fontStyle=2;align=center;verticalAlign=middle;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="Input: work orders received via REST or Kafka" vertex="1">
           <mxGeometry height="30" width="220" x="-460" y="-205" as="geometry" />
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-149" edge="1" parent="1" style="html=1;endArrow=classic;startSize=12;endSize=12;fontSize=11;fontColor=#1E293B;strokeColor=#2E75B6;strokeWidth=1.5;" value="0. Work orders ingested into Mendix">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-149" edge="1" parent="1" style="html=1;endArrow=classic;startSize=12;endSize=12;fontSize=11;fontColor=#1E293B;strokeColor=#2E75B6;strokeWidth=1.5;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="0. Work orders ingested into Mendix">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-350" y="-160" as="sourcePoint" />
             <mxPoint x="-610" y="-160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-150" edge="1" parent="1" style="html=1;endArrow=classic;startSize=12;endSize=12;fontSize=11;fontColor=#1E293B;strokeColor=#534AB7;strokeWidth=1.5;" value="1. Login to Mendix app">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-150" edge="1" parent="1" style="html=1;endArrow=classic;startSize=12;endSize=12;fontSize=11;fontColor=#1E293B;strokeColor=#534AB7;strokeWidth=1.5;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="1. Login to Mendix app">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-880" y="-120" as="sourcePoint" />
             <mxPoint x="-610" y="-120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-151" edge="1" parent="1" style="html=1;endArrow=classic;startSize=12;endSize=12;curved=1;fontSize=11;fontColor=#1E293B;strokeColor=#534AB7;strokeWidth=1.5;" value="2. Map user profile → factory + site">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-151" edge="1" parent="1" style="html=1;endArrow=classic;startSize=12;endSize=12;curved=1;fontSize=11;fontColor=#1E293B;strokeColor=#534AB7;strokeWidth=1.5;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="2. Map user profile → factory + site">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-520" y="-80" />
@@ -259,19 +259,19 @@
             <mxPoint x="-610" y="-45" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-152" edge="1" parent="1" style="html=1;endArrow=classic;startSize=12;endSize=12;fontSize=11;fontColor=#1E293B;strokeColor=#534AB7;strokeWidth=1.5;dashed=1;" value="3. Display work orders (filtered by factory + site)">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-152" edge="1" parent="1" style="html=1;endArrow=classic;startSize=12;endSize=12;fontSize=11;fontColor=#1E293B;strokeColor=#534AB7;strokeWidth=1.5;dashed=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="3. Display work orders (filtered by factory + site)">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-610" y="-5" as="sourcePoint" />
             <mxPoint x="-880" y="-5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-153" edge="1" parent="1" style="html=1;endArrow=classic;startSize=12;endSize=12;fontSize=11;fontColor=#1E293B;strokeColor=#534AB7;strokeWidth=1.5;" value="4. Select work order">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-153" edge="1" parent="1" style="html=1;endArrow=classic;startSize=12;endSize=12;fontSize=11;fontColor=#1E293B;strokeColor=#534AB7;strokeWidth=1.5;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="4. Select work order">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-880" y="35" as="sourcePoint" />
             <mxPoint x="-610" y="35" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-154" edge="1" parent="1" style="html=1;endArrow=classic;startSize=12;endSize=12;curved=1;fontSize=11;fontColor=#1E293B;strokeColor=#534AB7;strokeWidth=1.5;" value="5. Load associated work units">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-154" edge="1" parent="1" style="html=1;endArrow=classic;startSize=12;endSize=12;curved=1;fontSize=11;fontColor=#1E293B;strokeColor=#534AB7;strokeWidth=1.5;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="5. Load associated work units">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-520" y="75" />
@@ -281,7 +281,7 @@
             <mxPoint x="-610" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-155" edge="1" parent="1" style="html=1;endArrow=classic;startSize=12;endSize=12;curved=1;fontSize=11;fontColor=#1E293B;strokeColor=#534AB7;strokeWidth=1.5;" value="6. Apply template config → filter tasks for this user">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-155" edge="1" parent="1" style="html=1;endArrow=classic;startSize=12;endSize=12;curved=1;fontSize=11;fontColor=#1E293B;strokeColor=#534AB7;strokeWidth=1.5;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="6. Apply template config → filter tasks for this user">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-500" y="150" />
@@ -291,19 +291,19 @@
             <mxPoint x="-610" y="185" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-156" edge="1" parent="1" style="html=1;endArrow=classic;startSize=12;endSize=12;fontSize=11;fontColor=#1E293B;strokeColor=#534AB7;strokeWidth=1.5;dashed=1;" value="7. Display work units + relevant tasks only">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-156" edge="1" parent="1" style="html=1;endArrow=classic;startSize=12;endSize=12;fontSize=11;fontColor=#1E293B;strokeColor=#534AB7;strokeWidth=1.5;dashed=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="7. Display work units + relevant tasks only">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-610" y="225" as="sourcePoint" />
             <mxPoint x="-880" y="225" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-157" edge="1" parent="1" style="html=1;endArrow=classic;startSize=12;endSize=12;fontSize=11;fontColor=#1E293B;strokeColor=#534AB7;strokeWidth=1.5;" value="8. Perform task + update status">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-157" edge="1" parent="1" style="html=1;endArrow=classic;startSize=12;endSize=12;fontSize=11;fontColor=#1E293B;strokeColor=#534AB7;strokeWidth=1.5;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="8. Perform task + update status">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-880" y="265" as="sourcePoint" />
             <mxPoint x="-610" y="265" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-158" edge="1" parent="1" style="html=1;endArrow=classic;startSize=12;endSize=12;curved=1;fontSize=11;fontColor=#1E293B;strokeColor=#534AB7;strokeWidth=1.5;" value="9. Validate + persist task status update">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-158" edge="1" parent="1" style="html=1;endArrow=classic;startSize=12;endSize=12;curved=1;fontSize=11;fontColor=#1E293B;strokeColor=#534AB7;strokeWidth=1.5;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="9. Validate + persist task status update">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-510" y="305" />
@@ -313,64 +313,64 @@
             <mxPoint x="-610" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-159" edge="1" parent="1" style="html=1;endArrow=classic;startSize=12;endSize=12;fontSize=11;fontColor=#1E293B;strokeColor=#534AB7;strokeWidth=1.5;dashed=1;" value="10. Confirmation (status updated)">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-159" edge="1" parent="1" style="html=1;endArrow=classic;startSize=12;endSize=12;fontSize=11;fontColor=#1E293B;strokeColor=#534AB7;strokeWidth=1.5;dashed=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="10. Confirmation (status updated)">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-610" y="380" as="sourcePoint" />
             <mxPoint x="-880" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-160" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#5F5E5A;fontColor=#2C2C2A;fontSize=10;fontStyle=2;align=center;verticalAlign=middle;" value="Output: Kafka consume service from Mendix" vertex="1">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-160" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#5F5E5A;fontColor=#2C2C2A;fontSize=10;fontStyle=2;align=center;verticalAlign=middle;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="Output: Kafka consume service from Mendix" vertex="1">
           <mxGeometry height="30" width="280" x="-490" y="410" as="geometry" />
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-161" edge="1" parent="1" style="html=1;endArrow=classic;startSize=12;endSize=12;fontSize=11;fontColor=#1E293B;strokeColor=#5F5E5A;strokeWidth=1.5;" value="11. Publish task status update">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-161" edge="1" parent="1" style="html=1;endArrow=classic;startSize=12;endSize=12;fontSize=11;fontColor=#1E293B;strokeColor=#5F5E5A;strokeWidth=1.5;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="11. Publish task status update">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-610" y="460" as="sourcePoint" />
             <mxPoint x="-110" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-162" edge="1" parent="1" style="html=1;endArrow=classic;startSize=12;endSize=12;fontSize=11;fontColor=#1E293B;strokeColor=#0F6E56;strokeWidth=1.5;" value="12. Forward to Opcenter X">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-162" edge="1" parent="1" style="html=1;endArrow=classic;startSize=12;endSize=12;fontSize=11;fontColor=#1E293B;strokeColor=#0F6E56;strokeWidth=1.5;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="12. Forward to Opcenter X">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-110" y="500" as="sourcePoint" />
             <mxPoint x="100" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-163" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#0F6E56;fontColor=#04342C;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;" value="Opcenter X updated with task status from shop floor" vertex="1">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-163" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#0F6E56;fontColor=#04342C;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="Opcenter X updated with task status from shop floor" vertex="1">
           <mxGeometry height="30" width="400" x="-550" y="530" as="geometry" />
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-164" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#B4B2A9;strokeWidth=1;" value="" vertex="1">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-164" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#B4B2A9;strokeWidth=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
           <mxGeometry height="70" width="1080" x="-920" y="620" as="geometry" />
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-165" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1F4E79;" value="Legend" vertex="1">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-165" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1F4E79;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="Legend" vertex="1">
           <mxGeometry height="20" width="80" x="-905" y="625" as="geometry" />
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-166" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#1E293B;strokeWidth=1.5;" value="">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-166" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#1E293B;strokeWidth=1.5;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-905" y="660" as="sourcePoint" />
             <mxPoint x="-855" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-167" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#1E293B;" value="Call / action" vertex="1">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-167" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#1E293B;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="Call / action" vertex="1">
           <mxGeometry height="20" width="100" x="-845" y="650" as="geometry" />
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-168" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#1E293B;strokeWidth=1.5;dashed=1;" value="">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-168" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#1E293B;strokeWidth=1.5;dashed=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-740" y="660" as="sourcePoint" />
             <mxPoint x="-690" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-169" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#1E293B;" value="Response / display" vertex="1">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-169" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#1E293B;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="Response / display" vertex="1">
           <mxGeometry height="20" width="140" x="-680" y="650" as="geometry" />
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-170" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#534AB7;strokeColor=#26215C;fontColor=#ffffff;fontSize=10;" value="Mendix activity" vertex="1">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-170" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#534AB7;strokeColor=#26215C;fontColor=#ffffff;fontSize=10;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="Mendix activity" vertex="1">
           <mxGeometry height="24" width="140" x="-530" y="648" as="geometry" />
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-171" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2E75B6;strokeColor=#042C53;fontColor=#ffffff;fontSize=10;" value="Input (REST / Kafka)" vertex="1">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-171" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2E75B6;strokeColor=#042C53;fontColor=#ffffff;fontSize=10;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="Input (REST / Kafka)" vertex="1">
           <mxGeometry height="24" width="140" x="-380" y="648" as="geometry" />
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-172" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#5F5E5A;strokeColor=#2C2C2A;fontColor=#ffffff;fontSize=10;" value="Kafka (output)" vertex="1">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-172" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#5F5E5A;strokeColor=#2C2C2A;fontColor=#ffffff;fontSize=10;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="Kafka (output)" vertex="1">
           <mxGeometry height="24" width="140" x="-230" y="648" as="geometry" />
         </mxCell>
-        <mxCell id="rlK1lUbWq9sNtdgslz3P-173" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0F6E56;strokeColor=#04342C;fontColor=#ffffff;fontSize=10;" value="Opcenter X" vertex="1">
+        <mxCell id="rlK1lUbWq9sNtdgslz3P-173" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0F6E56;strokeColor=#04342C;fontColor=#ffffff;fontSize=10;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="Opcenter X" vertex="1">
           <mxGeometry height="24" width="140" x="-80" y="648" as="geometry" />
         </mxCell>
       </root>
